@@ -1,0 +1,26 @@
+{
+    "name": "rawdreeg/php-coding-exercises",
+    "description": "A collection of popular coding exercises implemented in PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rodrigo T.",
+            "email": "rawdreeg@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rawdreeg\\PhpCodingExercises\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.34"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
